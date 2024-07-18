@@ -109,14 +109,14 @@ int main(void)
 
   SSD1306_DrawBitmap(0,0,ganesha,128,64,1);
   SSD1306_UpdateScreen();
-//  HAL_Delay(2000);
-//  SSD1306_Clear ();
+ HAL_Delay(2000);
+ SSD1306_Clear ();
 
-//  SSD1306_DrawBitmap(0,0,Temperature,128,64,1);
-//  SSD1306_DrawBitmap(0,0,degree_centigrade,128,64,1);
-//  HAL_Delay(2000);
-//  SSD1306_GotoXY (70,10); // goto 10, 10
-//  SSD1306_Puts ("80", &Font_16x26, 1);
+ SSD1306_DrawBitmap(0,0,Temperature,128,64,1);
+ SSD1306_DrawBitmap(0,0,degree_centigrade,128,64,1);
+ HAL_Delay(2000);
+ SSD1306_GotoXY (70,10); // goto 10, 10
+ SSD1306_Puts ("80", &Font_16x26, 1);
 //
 //  SSD1306_UpdateScreen();
 //  HAL_Delay(2000);
