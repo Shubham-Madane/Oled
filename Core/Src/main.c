@@ -167,13 +167,6 @@ int main(void)
 
 
 
-
-
-
-
-
-
-
   //SSD1306_DrawLine(64, 0, 64 , 64, 0x01);
   //SSD1306_DrawLine(0, 32, 128 , 32, 0x01);
   //SSD1306_DrawRectangle(0, 0, 128, 64, 0x01);
